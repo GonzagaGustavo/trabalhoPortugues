@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  width: 100%;
+  align-items: center;
+}
+.people {
+  position: absolute;
+  left: 40%;
+}
+.img-container {
+  position: relative;
+  height: 80%;
+  width: 50%;
+}
+.img-relative {
+  height: 100%;
+  width: 55%;
+  border-radius: 50%;
+}
+.names {
+  text-align: center;
+}
+.content {
+  display: flex;
+  background-color: rgb(219, 219, 219);
+  height: 100%;
+}
+.varela {
+  margin: 1%;
+  height: 20%;
+  width: 60%;
+}
+.varela-img {
+  width: 40%;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  font-weight: bold;
+}
+.poesia {
+  display: grid;
+  place-items: center;
+}
+.footer {
+  background-color: rgb(101, 101, 158);
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.tu {
+  display: grid;
+  place-items: center;
+}
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-device-width: 414px) {
+  .img-container {
+    width: 100%;
+  }
+}
